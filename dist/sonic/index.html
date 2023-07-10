@@ -1,0 +1,434 @@
+
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sonic</title>
+  <meta name="description" content="sonicのブランドサイトです。">
+  <link rel="icon" href="/sonic/assets/img/favicon.ico" sizes="32×32">
+  <link rel="apple-touch-icon" href="/sonic/assets/img/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/keen-slider@latest/keen-slider.min.css"/>
+  <link rel="stylesheet" href="/sonic/assets/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/tween24@1.0.0/dist/tween24.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/keen-slider@latest/keen-slider.js"></script>
+  <script src='/sonic/assets/js/common.js'></script> 
+</head>
+<body class="p-top">
+
+<header id="header" class="header" data-js-id="globalHeader">
+  <div class="inner">
+    <a href="/" class="logo">
+      <img
+        src="/sonic/assets/images/common/logo.webp"
+        alt="当該サイトののロゴ"
+      />
+    </a>
+    <nav id="navi" class="pc-Nav pc-done">  <!--pcのグローバルメニュー-->
+      <ul>
+        <li>
+          <span class="statement en" data-scroll-target="statement">statement</span>
+        </li>
+        <li>
+          <span class="movie en"data-scroll-target="movie">movie</span>
+        </li>
+        <li>
+          <span class="/about en">about</span>
+        </li>
+        <li>
+          <span class="/about ja">僕のハレ日記</span>
+        </li>
+        <li>
+          <span class="/about ja">ハレ日報</span>
+        </li>
+        <li>
+          <span class="/about ja">ハレ予報</span>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="js-btn" class="spNavBtn sp-done"> <!--spのグローバルメニュー-->
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div id="spNav" class="sp-nav">
+      <div class="bg1"></div>
+      <div class="bg2"></div>
+      <div class="contents">
+        <ul>
+          <li>
+            <a href="/statememt" class="js-nav-link">
+              Statememt
+            </a>
+          </li>
+          <li>
+            <a href="/movie" class="js-nav-link">
+              Movie
+            </a>
+          </li>
+          <li>
+            <a href="/about" class="js-nav-link">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="/about" class="js-nav-link">
+              僕のハレ日記
+            </a>
+          </li>
+          <li>
+            <a href="/about" class="js-nav-link">
+              ハレ日報
+            </a>
+          </li>
+          <li>
+            <a href="/about" class="js-nav-link">
+              ハレ予報
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+
+<body id="top">
+   
+  <main id="main" class="main">
+    <!--ファーストビュー-->
+    <section class="visual" data-js-id="kv">
+      <figure class="img1"></figure>
+      <figure class="img2"></figure>
+      <div class="diver"></div>
+      <div class="texts">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+
+    <section class="statement" data-scroll-id="statement">
+      <figure class="sky">
+        <picture>
+          <source media="(max-width:959px)" srcset="assets/images/top/sm/statement_bg.webp">
+          <source media="(min-width:960px)" srcset="assets/images/top/lg/statement_bg.webp">
+          <img src="assets/images/top/lg/statement_bg.webp" alt="">
+        </picture>
+      </figure>
+      <div class="inner">
+        <figure class="visual">
+          <img src="assets/images/top/lg/statement_vis.webp" alt="">
+        </figure>
+        <p class="text pc-done">
+          <span>目に見えないちょっとした空気の流れが、</span>
+          <span>明日の天気をがらりと変えていくように。</span>
+          <span>ひとの気持ちも、暮らしも、そして未来も、</span>
+          <span>目に見えないちょっとしたものから晴れやかにしていける。</span>
+          <span>そう信じて。今日もクラレでは、社員のひとりひとりが</span>
+          <span>素材とひとつひとつ向き合い続けています。</span>
+          <span>私たちの信念で、技術で、アイデアで、</span>
+          <span>新しい便利さや、心地よさや、楽しさを、</span>
+          <span>すこしでも必要としてくれるひとに届けたい。</span>
+          <span>どうか、あなたの明日も、ハレますように。</span>
+        </p>
+        <p class="text sp-done">
+          <span>目に見えないちょっとした空気の流れが、</span>
+          <span>明日の天気をがらりと変えていくように。</span>
+          <span>ひとの気持ちも、暮らしも、そして未来も、</span>
+          <span>目に見えないちょっとしたものから</span>
+          <span>晴れやかにしていける。そう信じて。</span>
+          <span>今日もクラレでは、社員のひとりひとりが</span>
+          <span>素材とひとつひとつ向き合い続けています。</span>
+          <span>私たちの信念で、技術で、アイデアで、</span>
+          <span>新しい便利さや、心地よさや、楽しさを、</span>
+          <span>すこしでも必要としてくれるひとに届けたい。</span>
+          <span>どうか、あなたの明日も、ハレますように。</span>
+        </p>
+        <figure class="copy">
+          <span></span>
+          <span></span>
+          <span></span>
+        </figure>
+      </div>
+    </section>
+
+    <section class="movies">
+      <h3 class="title" data-scroll-id="movie">movie</h3>
+      <p class="sub-title">作品集</p>
+      <div class="carousel-wrapper" data-js-id="movieCarousel">
+        <ul class="carousel keen-slider"> 
+          <li class="keen-slider__slide number-slide1">
+            <div class="inner">
+              <figure>
+                <img src="/assets/images/top/movie_carousel_cm1.webp" alt="">
+              </figure>
+            </div>
+          </li>
+          <li class="keen-slider__slide number-slide2">
+            <div class="inner">
+              <figure>
+                <img src="/assets/images/top/movie_carousel_cm1.webp" alt="">
+              </figure>
+            </div>
+          </li>
+          <li class="keen-slider__slide number-slide3">
+            <div class="inner">
+              <figure>
+                <img src="/assets/images/top/movie_carousel_cm1.webp" alt="">
+              </figure>
+            </div>
+          </li>
+          <li class="keen-slider__slide number-slide4">
+            <div class="inner">
+              <figure>
+                <img src="/assets/images/top/movie_carousel_cm1.webp" alt="">
+              </figure>
+            </div>
+          </li>
+          <li class="keen-slider__slide number-slide5">
+            <div class="inner">
+              <figure>
+                <img src="/assets/images/top/movie_carousel_cm1.webp" alt="">
+              </figure>
+            </div>
+          </li>
+        </ul>
+        <div class="controller">
+          <div class="controller-inner">
+            <span class="btn" data-js-id="movieCarouselPrev">
+              <span class="bg"></span>
+              <span class="arrow"></span>
+            </span>
+            <span class="btn" data-js-id="movieCarouselNext">
+              <span class="bg"></span>
+              <span class="arrow"></span>
+            </span>
+          </div>
+        </div>
+        <ul class="dots">
+          <li data-carousel-target="1"></li>
+          <li data-carousel-target="2"></li>
+          <li data-carousel-target="3"></li>
+          <li data-carousel-target="4"></li>
+          <li data-carousel-target="5"></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="words">
+      <div class="bg"></div>
+      <div class="text">
+        <p>私の仕事と</p>
+        <h2 class="movie">
+          <img src="/assets/images/top/lg/word_title.png" srcset="/assets/images/top/lg/word_title@2x.png 2x" alt="ハレ言葉">
+        </h2>
+      </div>
+      <div class="carousel" data-js-id="wordCarousel">
+        <ul>
+          <li>
+            <a href="">
+              <figure>
+                <img src="/assets/images/top/lg/word_carousel1.webp" draggable="">
+              </figure>
+              <div class="description">
+                <p>
+                  <span>
+                    <span>粘り強く、</span>
+                  </span>
+                  <span>
+                    <span>理想を追い越して</span>
+                  </span>
+                </p>
+                <div class="position">
+                  <span class="dir">
+                    <span>営業</span>
+                  </span>
+                  <span class="name">
+                    <span>
+                      エストラマー事業部
+                      <br>ポリマー販売部
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure>
+                <img src="/assets/images/top/lg/word_carousel1.webp" draggable="">
+              </figure>
+              <div class="description">
+                <p>
+                  <span>
+                    <span>粘り強く、</span>
+                  </span>
+                  <span>
+                    <span>理想を追い越して</span>
+                  </span>
+                </p>
+                <div class="position">
+                  <span class="dir">
+                    <span>営業</span>
+                  </span>
+                  <span class="name">
+                    <span>
+                      エストラマー事業部
+                      <br>ポリマー販売部
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure>
+                <img src="/assets/images/top/lg/word_carousel1.webp" draggable="">
+              </figure>
+              <div class="description">
+                <p>
+                  <span>
+                    <span>粘り強く、</span>
+                  </span>
+                  <span>
+                    <span>理想を追い越して</span>
+                  </span>
+                </p>
+                <div class="position">
+                  <span class="dir">
+                    <span>営業</span>
+                  </span>
+                  <span class="name">
+                    <span>
+                      エストラマー事業部
+                      <br>ポリマー販売部
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure>
+                <img src="/assets/images/top/lg/word_carousel1.webp" draggable="">
+              </figure>
+              <div class="description">
+                <p>
+                  <span>
+                    <span>粘り強く、</span>
+                  </span>
+                  <span>
+                    <span>理想を追い越して</span>
+                  </span>
+                </p>
+                <div class="position">
+                  <span class="dir">
+                    <span>営業</span>
+                  </span>
+                  <span class="name">
+                    <span>
+                      エストラマー事業部
+                      <br>ポリマー販売部
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure>
+                <img src="/assets/images/top/lg/word_carousel1.webp" draggable="">
+              </figure>
+              <div class="description">
+                <p>
+                  <span>
+                    <span>粘り強く、</span>
+                  </span>
+                  <span>
+                    <span>理想を追い越して</span>
+                  </span>
+                </p>
+                <div class="position">
+                  <span class="dir">
+                    <span>営業</span>
+                  </span>
+                  <span class="name">
+                    <span>
+                      エストラマー事業部
+                      <br>ポリマー販売部
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure>
+                <img src="/assets/images/top/lg/word_carousel1.webp" draggable="">
+              </figure>
+              <div class="description">
+                <p>
+                  <span>
+                    <span>粘り強く、</span>
+                  </span>
+                  <span>
+                    <span>理想を追い越して</span>
+                  </span>
+                </p>
+                <div class="position">
+                  <span class="dir">
+                    <span>営業</span>
+                  </span>
+                  <span class="name">
+                    <span>
+                      エストラマー事業部
+                      <br>ポリマー販売部
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure>
+                <img src="/assets/images/top/lg/word_carousel1.webp" draggable="">
+              </figure>
+              <div class="description">
+                <p>
+                  <span>
+                    <span>粘り強く、</span>
+                  </span>
+                  <span>
+                    <span>理想を追い越して</span>
+                  </span>
+                </p>
+                <div class="position">
+                  <span class="dir">
+                    <span>営業</span>
+                  </span>
+                  <span class="name">
+                    <span>
+                      エストラマー事業部
+                      <br>ポリマー販売部
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <script src='/assets/js/common.js'></script> 
+</body>

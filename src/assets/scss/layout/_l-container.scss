@@ -1,0 +1,20 @@
+@charset "UTF-8";
+@use "../global/" as *;
+
+
+///レイアウト用
+.document-wp {
+  position: relative;
+  padding: 0 20px;
+
+  @include max_pc_mid {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 40px;
+    // padding: 0 103px;
+    // max-width: 1160px;
+  }
+  @include max_pc_sm {
+    padding: 0 80px;
+  }
+}

@@ -1,0 +1,49 @@
+// _mixin.scss
+
+$breakpoints: (
+  // sp: 767.98px,
+  // pc: 768px,
+  // max_pc_sm: 919.98px,
+  // max_pc_md: 1023.98px,
+  // max_pc_lg: 1279.98px
+  sm: 959px,
+  max_pc_sm: 960px,
+  max_pc_mid: 1365px,
+  max_pc_lg: 1366px,
+
+
+) !default;
+
+@mixin sm() {
+  @media screen and (max-width: map-get($breakpoints, sm)) {
+    @content;
+  }
+}
+
+@mixin max_pc_sm() {
+  @media screen and (min-width: map-get($breakpoints, max_pc_sm)) {
+    @content;
+  }
+}
+
+@mixin max_pc_mid() {
+  @media screen and (min-width: map-get($breakpoints, max_pc_sm)) and (max-width: map-get($breakpoints, max_pc_mid))  {
+    @content;
+  }
+}
+
+@mixin max_pc_lg() {
+  @media screen and (min-width: map-get($breakpoints, max_pc_lg)) {
+    @content;
+  }
+}
+
+// @mixin max_pc_lg() {
+//   @media screen and (max-width: map-get($breakpoints, max_pc_lg)) {
+//     @content;
+//   }
+// }
+
+@function tracking($value){
+  @return $value / 1000 * 1em;
+ }

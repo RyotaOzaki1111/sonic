@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+@use "./mixin" as *;
+@use "./color" as *;
+
+// セマンティックな命名
+// ホバー時のtransitionの秒数
+$btn-hover-transition: all .4s ease-out;
+$img-prehover-transform: scale(1,1);
+$img-hover-transform: scale(1,0);  
+
+// 「プロパティ名-値」を変数名にする
+// opacityに使用（06は連番ではなく値なのでハイフンが入ります）
+$opacity-06: 0.6;
+$opacity-10: 1;
+
+//line-height、letter-spacing
+$line-height-14: 1.4;
+$line-height-16: 1.6;
+$line-height-20: 2;
+$letter-spacing50: 0.05em;
+$letter-spacing80: 0.08em;
+$z-index-minus1: -1;
+$z-index1: 1;
+$z-index2: 2;
+$z-index3: 3;
+$z-index4: 4;
+
+$base-scale3d: scale3d(1,1,1);
+$base-translate3d: translate3d(0,0,0);
+$primary-curve: cubic-bezier(0.62,0.05,0.01,0.99);
+
+
+//PC、,SP時の出し分け
+.pc-done {
+  display: none;
+
+  @include max_pc_sm {
+    display: block !important;
+  }
+}
+
+.sp-done {
+  display: block;
+
+  @include max_pc_sm {
+    display: none !important;
+  }
+}
+
+
+
+///各種 アニメーション
+.js-hero-target {
+  transition: all 1.8s cubic-bezier(.165,.84,.44,1);
+  transition-timing-function: cubic-bezier(.165,.84,.44,1);
+  transition-property: opacity,transform;
+}
+
+.js-observer-target {
+  opacity: 0;
+  transition: all 1.8s cubic-bezier(.165,.84,.44,1);
+  transition-timing-function: cubic-bezier(.165,.84,.44,1);
+  transition-property: opacity,transform;
+  transform: translateY(15px);
+
+  will-change: transition;
+
+  &.delay02 {
+    transition-delay: 0.2s;
+  }
+
+  &.delay04 {
+    transition-delay: 0.4s;
+  }
+
+  &.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+//viewmoreのkeyframe
+@keyframes arrow-right-link {
+  0% {
+      opacity: 1;
+      transform: translateX(0)
+  }
+
+  30% {
+      opacity: 0;
+      transform: translateX(20px)
+  }
+
+  70% {
+      opacity: 0;
+      transform: translateX(-20px)
+  }
+
+  to {
+      opacity: 1;
+      transform: translateX(0)
+  }
+}
+
+
+//TOPのABOUTセクション
+@keyframes about-slide {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+// @keyframes layout-wiper-up {
+//   0% {
+//     opacity: 1;
+//     transform: translate3d(0,100%,0);
+//     animation-timing-function: $primary-curve;
+//   }
+
+//   40% {
+//     transform: $base-translate3d;
+//     animation-timing-function: $primary-curve;
+//   }
+
+//   61% {
+//     opacity: 1;
+//     animation-timing-function: $primary-curve;
+//   }
+
+//   100% {
+//     opacity: 1;
+//   }
+// }
+
+
+
+@keyframes layout-wiper-up_maskIn {
+
+  0% {
+    clip-path: inset(100% 0 0 0); //この初期値をheader.scssに記載するとopacityのtransitonが効かなくなる
+  }
+
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+
+
+@keyframes layout-wiper-up_maskIn-text {
+
+  to {
+    opacity: 1;
+    transform: $base-translate3d;
+  }
+}
+
+
+

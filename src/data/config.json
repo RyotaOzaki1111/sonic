@@ -1,0 +1,451 @@
+{
+  "common": {
+    "description": "sonicのブランドサイトです。"
+    ,"main_menu": [
+      {
+        "label": "私たちについて"
+        ,"href": "/natural-water/about/"
+        ,"megamenu": [
+          {
+            "label": "ごあいさつ"
+            ,"href": "/natural-water/about/message/"
+            ,"img": "/natural-water/assets/img/about/img_about_link_01.jpg"
+          }
+          ,{
+            "label": "会社理念"
+            ,"href": "/natural-water/about/philosophy/"
+            ,"img": "/natural-water/assets/img/about/img_about_link_03.jpg"
+          }
+          ,{
+            "label": "会社概要"
+            ,"href": "/natural-water/about/profile/"
+            ,"img": "/natural-water/assets/img/about/img_about_link_02.jpg"
+          }
+        ]
+      },
+      {
+        "label": "商品"
+        ,"href": "/natural-water/product/"
+        ,"megamenu": [
+          {
+            "label": "一般商品"
+            ,"href": "/natural-water/product/consumer/"
+            ,"img": "/natural-water/assets/img/product/img_product_link_01.jpg"
+          }
+          ,{
+            "label": "法人商品"
+            ,"href": "/natural-water/product/corporation/"
+            ,"img": "/natural-water/assets/img/product/img_product_link_02.jpg"
+          }
+        ]
+      }
+      ,{
+        "label": "事業内容"
+        ,"href": "/natural-water/service/"
+      }
+      ,{
+        "label": "採用情報"
+        ,"href": "/natural-water/recruit/"
+      }
+      ,{
+        "label": "お問合せ"
+        ,"href": "/natural-water/contact/"
+      }
+    ]
+    ,"footer_menu": [
+      {
+        "label": "私たちについて"
+        ,"href": "/natural-water/about/"
+      },
+      {
+        "label": "商品"
+        ,"href": "/natural-water/product/"
+      }
+      ,{
+        "label": "事業内容"
+        ,"href": "/natural-water/service/"
+      }
+      ,{
+        "label": "採用情報"
+        ,"href": "/natural-water/recruit/"
+      }
+    ]
+    ,"footer_sub_menu": [
+      {
+        "label": "研究開発"
+        ,"href": "/natural-water/"
+      },
+      {
+        "label": "オンラインショップ"
+        ,"href": "/natural-water/"
+      }
+      ,{
+        "label": "オウンドメディア"
+        ,"href": "/natural-water/"
+      }
+      ,{
+        "label": "GLOBAL SITE"
+        ,"href": "/natural-water/"
+      }
+    ]
+    ,"footer_bottom_menu": [
+      {
+        "label": "利用規約"
+        ,"href": "/natural-water/"
+      },
+      {
+        "label": "クッキーポリシー"
+        ,"href": "/natural-water/"
+      }
+      ,{
+        "label": "個人情報保護方針"
+        ,"href": "/natural-water/"
+      }
+      ,{
+        "label": "メディアポリシー"
+        ,"href": "/natural-water/"
+      }
+    ]
+  }
+  ,"top": {
+    "title": "sonic"
+    ,"page_url": "/sonic/"
+    ,"page_title": "TOP"
+    ,"page_class": "p-top"
+  }
+  ,"about": {
+    "title": "私たちについて | 株式会社NATURAL WATER"
+    ,"page_url": "/natural-water/about/"
+    ,"page_title": "私たちについて"
+    ,"page_class": "p-about"
+    ,"fv_image_title": "ABOUT"
+    ,"fv_image_sub_title": "わたしたちについて"
+    ,"fv_image_pc": "/natural-water/assets/img/about/img_about_mv.jpg"
+    ,"fv_image_sp": "/natural-water/assets/img/about/img_about_mv_sp.jpg"
+    ,"media_link": [
+      {
+        "label": "ごあいさつ"
+        ,"href": "/natural-water/about/message/"
+        ,"image": "/natural-water/assets/img/about/img_about_link_01.jpg"
+      }
+      ,{
+        "label": "会社概要"
+        ,"href": "/natural-water/about/profile/"
+        ,"image": "/natural-water/assets/img/about/img_about_link_02.jpg"
+      }
+    ]
+    ,"breadcrumb": [
+      {
+        "label": "TOP"
+        ,"href": "/natural-water/"
+      }
+      ,{
+        "label": "私たちについて"
+        ,"href": ""
+      }
+    ]
+  }
+  ,"about-message": {
+    "title": "ごあいさつ | 私たちについて | 株式会社NATURAL WATER"
+    ,"page_url": "/natural-water/about/message/"
+    ,"page_title": "ごあいさつ"
+    ,"page_class": "p-about-message"
+    ,"excursion_top": [
+      {
+        "label_ja": "わたしたちについて"
+        ,"label_en": "ABOUT"
+        ,"href": "/natural-water/about/"
+      }
+    ]
+    ,"excursion_link": [
+      {
+        "label": "ごあいさつ"
+        ,"href": "/natural-water/about/message/"
+      }
+      ,{
+        "label": "企業理念"
+        ,"href": "/natural-water/about/philosophy/"
+      }
+      ,{
+        "label": "会社概要"
+        ,"href": "/natural-water/about/profile/"
+      }
+    ]
+    ,"breadcrumb": [
+      {
+        "label": "TOP"
+        ,"href": "/natural-water/"
+      }
+      ,{
+        "label": "私たちについて"
+        ,"href": "/natural-water/about/"
+      }
+      ,{
+        "label": "ごあいさつ"
+        ,"href": ""
+      }
+    ]
+  }
+  ,"about-philosophy": {
+    "title": "会社理念 | 私たちについて | 株式会社NATURAL WATER"
+    ,"page_url": "/natural-water/about/philosophy/"
+    ,"page_title": "会社理念"
+    ,"page_class": "p-about-philosophy"
+    ,"excursion_top": [
+      {
+        "label_ja": "わたしたちについて"
+        ,"label_en": "ABOUT"
+        ,"href": "/natural-water/about/"
+      }
+    ]
+    ,"excursion_link": [
+      {
+        "label": "ごあいさつ"
+        ,"href": "/natural-water/about/message/"
+      }
+      ,{
+        "label": "企業理念"
+        ,"href": "/natural-water/about/philosophy/"
+      }
+      ,{
+        "label": "会社概要"
+        ,"href": "/natural-water/about/profile/"
+      }
+    ]
+    ,"breadcrumb": [
+      {
+        "label": "TOP"
+        ,"href": "/natural-water/"
+      }
+      ,{
+        "label": "私たちについて"
+        ,"href": "/natural-water/about/"
+      }
+      ,{
+        "label": "会社理念"
+        ,"href": ""
+      }
+    ]
+  }
+  ,"about-profile": {
+    "title": "会社概要 | 私たちについて | 株式会社NATURAL WATER"
+    ,"page_url": "/natural-water/about/profile/"
+    ,"page_title": "会社概要"
+    ,"page_class": "p-about-profile"
+    ,"excursion_top": [
+      {
+        "label_ja": "わたしたちについて"
+        ,"label_en": "ABOUT"
+        ,"href": "/natural-water/about/"
+      }
+    ]
+    ,"excursion_link": [
+      {
+        "label": "ごあいさつ"
+        ,"href": "/natural-water/about/message/"
+      }
+      ,{
+        "label": "企業理念"
+        ,"href": "/natural-water/about/philosophy/"
+      }
+      ,{
+        "label": "会社概要"
+        ,"href": "/natural-water/about/profile/"
+      }
+    ]
+    ,"breadcrumb": [
+      {
+        "label": "TOP"
+        ,"href": "/natural-water/"
+      }
+      ,{
+        "label": "私たちについて"
+        ,"href": "/natural-water/about/"
+      }
+      ,{
+        "label": "会社概要"
+        ,"href": ""
+      }
+    ]
+  }
+  ,"product": {
+    "title": "商品 | 株式会社NATURAL WATER"
+    ,"page_url": "/natural-water/product/"
+    ,"page_title": "商品"
+    ,"page_class": "p-product"
+    ,"fv_image_title": "PRODUCT"
+    ,"fv_image_sub_title": "わたしたちについて"
+    ,"fv_image_pc": "/natural-water/assets/img/product/img_products_mv.jpg"
+    ,"fv_image_sp": "/natural-water/assets/img/product/img_products_mv_sp.jpg"
+    ,"media_link": [
+      {
+        "label": "一般商品"
+        ,"href": "/natural-water/product/consumer/"
+        ,"image": "/natural-water/assets/img/product/img_product_link_01.jpg"
+        ,"text": "店舗で購入できる表品を中心に紹介いたします。"
+      }
+      ,{
+        "label": "法人商品"
+        ,"href": "/natural-water/product/corporation/"
+        ,"image": "/natural-water/assets/img/product/img_product_link_02.jpg"
+        ,"text": "法人様向けの商品をご紹介いたします。"
+      }
+    ]
+    ,"breadcrumb": [
+      {
+        "label": "TOP"
+        ,"href": "/natural-water/"
+      }
+      ,{
+        "label": "商品"
+        ,"href": ""
+      }
+    ]
+  }
+  ,"product-consumer": {
+    "title": "一般商品 | 商品 | 株式会社NATURAL WATER"
+    ,"page_url": "/natural-water/product/consumer/"
+    ,"page_title": "一般商品"
+    ,"page_class": "p-product-consumer"
+    ,"excursion_top": [
+      {
+        "label_ja": "商品"
+        ,"label_en": "PRODUCT"
+        ,"href": "/natural-water/product/"
+      }
+    ]
+    ,"excursion_link": [
+      {
+        "label": "一般商品"
+        ,"href": "/natural-water/product/consumer/"
+      }
+      ,{
+        "label": "法人商品"
+        ,"href": "/natural-water/product/corporation/"
+      }
+    ]
+    ,"breadcrumb": [
+      {
+        "label": "TOP"
+        ,"href": "/natural-water/"
+      }
+      ,{
+        "label": "商品"
+        ,"href": "/natural-water/product/"
+      }
+      ,{
+        "label": "一般商品"
+        ,"href": ""
+      }
+    ]
+  }
+  ,"product-corporation": {
+    "title": "法人商品 | 商品 | 株式会社NATURAL WATER"
+    ,"page_url": "/natural-water/product/corporation/"
+    ,"page_title": "法人商品"
+    ,"page_class": "p-product-corporation"
+    ,"excursion_top": [
+      {
+        "label_ja": "商品"
+        ,"label_en": "PRODUCT"
+        ,"href": "/natural-water/product/"
+      }
+    ]
+    ,"excursion_link": [
+      {
+        "label": "一般商品"
+        ,"href": "/natural-water/product/consumer/"
+      }
+      ,{
+        "label": "法人商品"
+        ,"href": "/natural-water/product/corporation/"
+      }
+    ]
+    ,"breadcrumb": [
+      {
+        "label": "TOP"
+        ,"href": "/natural-water/"
+      }
+      ,{
+        "label": "商品"
+        ,"href": "/natural-water/product/"
+      }
+      ,{
+        "label": "法人商品"
+        ,"href": ""
+      }
+    ]
+  }
+  ,"news": {
+    "title": "お知らせ | 株式会社NATURAL WATER"
+    ,"page_url": "/natural-water/news/"
+    ,"page_title": "お知らせ"
+    ,"page_class": "p-news"
+    ,"breadcrumb": [
+      {
+        "label": "TOP"
+        ,"href": "/natural-water/"
+      }
+      ,{
+        "label": "お知らせ"
+        ,"href": ""
+      }
+    ]
+  }
+  ,"recruit": {
+    "title": "採用情報 | 株式会社NATURAL WATER"
+    ,"page_url": "/natural-water/recruit/"
+    ,"page_title": "採用情報"
+    ,"page_class": "p-recruit"
+    ,"fv_image_title": "RECRUIT"
+    ,"fv_image_sub_title": "採用情報"
+    ,"fv_image_pc": "/natural-water/assets/img/recruit/img_recruit_mv.jpg"
+    ,"fv_image_sp": "/natural-water/assets/img/recruit/img_recruit_mv_sp.jpg"
+    ,"media_link": [
+      {
+        "label": "新卒採用"
+        ,"href": "/natural-water/recruit/new-graduate/"
+        ,"image": "/natural-water/assets/img/recruit/img_recruit_link_01.jpg"
+        ,"text": "新卒の採用情報や弊社についてご紹介しております。"
+      }
+      ,{
+        "label": "中途採用"
+        ,"href": "/natural-water/recruit/mid-career-recruitment/"
+        ,"image": "/natural-water/assets/img/recruit/img_recruit_link_02.jpg"
+        ,"text": "求人情報をご紹介しております。"
+      }
+    ]
+    ,"breadcrumb": [
+      {
+        "label": "TOP"
+        ,"href": "/natural-water/"
+      }
+      ,{
+        "label": "採用情報"
+        ,"href": ""
+      }
+    ]
+  }
+  ,"contact": {
+    "title": "お問合せ | 株式会社NATURAL WATER"
+    ,"page_url": "/natural-water/contact/"
+    ,"page_title": "お問合せ"
+    ,"page_class": "p-contact"
+    ,"breadcrumb": [
+      {
+        "label": "TOP"
+        ,"href": "/natural-water/"
+      }
+      ,{
+        "label": "お問合せ"
+        ,"href": ""
+      }
+    ]
+  }
+  ,"service": {
+    "title": "ページTOP | サービス"
+    ,"page_url": "/natural-water/service/"
+    ,"page_title": "サービス"
+    ,"page_class": "p-service"
+  }
+}

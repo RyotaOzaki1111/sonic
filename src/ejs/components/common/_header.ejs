@@ -1,0 +1,106 @@
+<%
+// ページ共通のデータ
+const data = conf.common;
+const page_meta = conf[slug]
+-%>
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= page_meta.title %></title>
+  <meta name="description" content="<%= data.description %>">
+  <link rel="icon" href="/assets/img/favicon.ico" sizes="32×32">
+  <link rel="apple-touch-icon" href="/assets/img/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/keen-slider@latest/keen-slider.min.css"/>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/tween24@1.0.0/dist/tween24.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/keen-slider@latest/keen-slider.js"></script>
+  <script src="https://www.youtube.com/iframe_api" class="optanon-category-C0004 " type="text/javascript"></script>
+</head>
+<body class="<%= page_meta.page_class %>">
+
+<header id="header" class="header" data-js-id="globalHeader">
+  <div class="inner">
+    <a href="/" class="logo">
+      <img
+        src="/assets/images/common/logo.png"
+        alt="当該サイトののロゴ"
+      />
+    </a>
+    <nav id="navi" class="pc-Nav pc-done">  <!--pcのグローバルメニュー-->
+      <ul>
+        <li>
+          <span class="statement en" data-scroll-target="statement">statement</span>
+        </li>
+        <li>
+          <span class="movie en"data-scroll-target="movie">movie</span>
+        </li>
+        <li>
+          <span class="/about en">about</span>
+        </li>
+        <li>
+          <span class="/about ja">僕のハレ日記</span>
+        </li>
+        <li>
+          <span class="/about ja">ハレ日報</span>
+        </li>
+        <li>
+          <span class="/about ja">ハレ予報</span>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="spNavBtn sp-done" data-js-id="spNavBtn"> <!--spのグローバルメニュー-->
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="sp-nav" data-js-id="spNav">
+      <div class="bg1"></div>
+      <div class="bg2"></div>
+      <div class="contents">
+        <ul>
+          <li>
+            <a href="/statememt" class="js-nav-link">
+              Statememt
+            </a>
+          </li>
+          <li>
+            <a href="/movie" class="js-nav-link">
+              Movie
+            </a>
+          </li>
+          <li>
+            <a href="/about" class="js-nav-link">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="/about" class="js-nav-link">
+              僕のハレ日記
+            </a>
+          </li>
+          <li>
+            <a href="/about" class="js-nav-link">
+              ハレ日報
+            </a>
+          </li>
+          <li>
+            <a href="/about" class="js-nav-link">
+              ハレ予報
+            </a>
+          </li>
+          <li>
+            <a href="/about" class="js-nav-link">
+              ボク予報
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>

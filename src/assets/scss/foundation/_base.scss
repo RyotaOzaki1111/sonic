@@ -1,0 +1,64 @@
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+  color: text-color(base);
+  font-weight: 700;
+  font-family: Zen Kaku Gothic New,sans-serif;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body.is-menuOpen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+/*ハンバーガーメニューのスクロール固定表示用*/
+
+main { flex: 1; }
+
+a {
+  color: text-color(link01);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  padding: 0;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  appearance: none;
+}
+
+html, body,
+p, ol, ul, li, dl, dt, dd,
+blockquote, figure, fieldset, legend, textarea, pre, iframe,
+h1, h2, h3, h4, h5, h6, hr {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
